@@ -12,6 +12,8 @@ public class Solution {
             String sentence = scan.next();
             findEvenOddOfString(sentence);
         }
+
+        scan.close();
     }
 
     protected static void findEvenOddOfString(String sentence) {
